@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js – The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+    <section>
+
+     <h3>SPOQUTE - Corrosões</h3>
+     <div 
+      style="
+      display: flex;
+      justify-content: space-around;
+      ">
+
+      <img 
+       style=" height: 200px; "
+       src="https://moodle.gpematec.com.br/pluginfile.php/1/theme_moove/marketing3icon/1632794254/logo_ifsp.jpeg"
+      >
+
+       <div>
+        <h4>Alunos</h4>
+        <ul style=" font-size: 1.5rem ">
+         <li><strong>Gabriel Arom:</strong> SP3176576</li>
+         <li><strong>Luigi:</strong> SP3183866 </li>
+         <li><strong>Márcio:</strong> SP3175391 </li>
+        </ul>
+      </div>
+
+
+       <div>
+        <h4>Professores</h4>
+        <ul style=" font-size: 1.5rem ">
+         <li><strong>Lucia</strong></li>
+         <li><strong>Caio</strong></li>
+        </ul>
+      </div>
+
+     </div>
+
+    </section>
+
+    <section data-auto-animate>
+     <h3>Caso 1</h3>
+    </section>
+
+    <section data-auto-animate>
+     <h3>Caso 1</h3>
+     <h3>Parafusos do Uno</h3>
+    </section>
+
+    <section data-auto-animate >
+     <h3>Caso 1</h3>
+     <h3>Parafusos do Uno</h3>
+     <img
+      src="assets/parafusos.jpg"
+      style="
+      height: 350px;
+      width: 550px;
+      object-fit: cover; "
+      alt="">
+    </section>
+
+    <section data-auto-animate>
+     <div style="display: flex; justify-content: space-between; align-items: center; gap: 1rem" >
+      <img
+       src="assets/parafusos.jpg"
+       style="
+       height: 550px;
+       object-fit: contain; "
+       alt="">
+       <div>
+       <h3>Potencial: </h3>
+        <h3 style="font-size: 2.1rem" > 1. Situação Problema</h3>
+       <ul style=" font-size: 1.3rem ">
+         <li class="fragment ">Parafusos de Aço-Carbono;</li>
+         <li class="fragment">98% Ferro;</li>
+         <li class="fragment">Expostos a urina canina;</li>
+        <li class="fragment">A urina dos cães contém compostos como ureia, ácido úrico, e íons como $Na^+, K^+, Cl^-,$ e $NH_4^+$, que podem influenciar a corrosão do aço-carbono.</li>
+       </ul>
+      </div>
+     </div>
+    </section>
+
+    <section data-auto-animate>
+     <div style="display: flex; justify-content: space-between; align-items: center; gap: 1rem" >
+      <img
+       src="assets/parafusos.jpg"
+       style="
+       height: 550px;
+       object-fit: contain; "
+       alt="">
+       <div>
+       <h3>Potencial:</h3>
+        <h3 style="font-size: 2.1rem" >2. Identificação das Reações</h3>
+       <ul style=" font-size: 1.3rem ">
+        <p>São partes da reação de oxirredução: </p>
+         <li class="fragment"><strong>Reação Anódica: </strong>
+           $\text{ Fe} \rightarrow \text{Fe}^{2+} + 2e^{-}$
+        </li>
+
+         <li class="fragment">
+<strong>Reação Catódica (em meio ácido):</strong> $O_2 + 4e^- + 2H_2O -> 4OH^-$
+         <br><br>
+
+$4\text{Fe(OH)}_2 + O_2 + 2H_2O \rightarrow 2\text{Fe}_2\text{O}_3 \cdot 3H_2O$
+
+
+        </li>
+       </ul>
+      </div>
+     </div>
+    </section>
+
+     <section data-auto-animate>
+      <div style="display: flex; justify-content: space-between; align-items: center; gap: 1rem" >
+       <img src="assets/parafusos.jpg" style=" height: 550px; object-fit: contain; " alt="">
+        <div>
+       <h3>Potencial:</h3>
+         <h3 style="font-size: 2.1rem" >3. Potencial Padrão</h3>
+        <ul style=" font-size: 1.3rem; gap: 1rem ">
+        <li> Para a reação de oxidação: $\text{ Fe}^{2+} + 2e^{-} \rightarrow \text{Fe}$ (E° ≈ -0.44 V)
+        </li>
+        <li class="">
+Potencial Padrão para a Redução de $H^+$:  $O_2 + 4e^- + 2H_2O -> 4OH^-$ (E° = 0.00 V)
+        </li>
+        <br/>
+        <li class="fragment">
+         $E^\circ_{\text{cel}} = E^\circ_{\text{cat}} - E^\circ_{\text{an}}=$ $ 0.00 \, \text{V} - (-0.44 \, \text{V}) = 0.44 \, \text{V}$ </li>
+       </ul>
+       </div>
+      </div>
+     </section>
+
+     <section data-auto-animate>
+      <div style="display: flex; justify-content: space-between; align-items: center; gap: 1rem" >
+       <img src="assets/parafusos.jpg" style=" height: 550px; object-fit: contain; " alt="">
+        <div>
+       <h3>Potencial:</h3>
+         <h3 style="font-size: 2.1rem" > 4. Potencial Observado: </h3>
+        <ul style=" font-size: 1.3rem; gap: 1rem ">
+          $E = E^\circ - \frac{RT}{nF} \ln Q$ 
+        <br/>
+        <br/>
+        <li>Onde $Q$ (assumindo uma concentração de $Fe \approx 10^{-3}mol$) = </li>
+        <br/>
+         $Q = \frac{0.001}{(3.16 \times 10^{-7})^2} \approx 10^4$
+       </ul>
+       </div>
+      </div>
+     </section>
+     <section data-auto-animate>
+      <div style="display: flex; justify-content: space-between; align-items: center; gap: 1rem" >
+       <img src="assets/parafusos.jpg" style=" height: 550px; object-fit: contain; " alt="">
+        <div>
+       <h3>Potencial:</h3>
+         <h3 style="font-size: 2.1rem" > 4. Potencial Observado: </h3>
+        <ul style=" font-size: 1.3rem; gap: 1rem ">
+        <li>Substituindo: </li>
+   $E \approx 0.44 - 0.0257 \cdot 4 \approx 0.44 - 0.1028 \approx 0.3372 \, \text{V}$
+       </ul>
+       </div>
+      </div>
+     </section>
+
+    <section data-auto-animate data-transition="zoom">
+      <div style="display: flex; flex-direction: row-reverse; justify-content: space-between; align-items: center; gap: 1rem" >
+       <img src="assets/parafusos.jpg" style=" height: 550px; object-fit: contain; " alt="">
+        <div>
+       <h3>Taxa de Corrosão </h3>
+         <h3 style="font-size: 2.1rem" >Corrosão por Pites: </h3>
+        <ul style=" font-size: 1.3rem; gap: 1rem ">
+         Taxa $\frac{mm}{ano} = \frac{\text{Profundidade}}{\text{tempo}}$ 
+        <br><br>
+        <li>Assumindo pites de $1mm$:</li>
+        <br><br>
+         $1mm = \frac{0.001}{365} \approx 2.7 \times 10^{-6} \frac{mm}{dia}$
+       </ul>
+       </div>
+      </div>
+     </section>
+
+    <section data-auto-animate data-transition="zoom">
+     <h3>Potenciais Soluções:</h3>
+      <ul class="fragment highlight-red">
+       <li>Monitoramento e Inspeção</li>
+       <li>Revestimentos Protetores</li>
+       <li>Manutenção e Limpeza</li>
+      </ul>
+    </section>
+    <section data-auto-animate data-transition="zoom">
+     <h3>Potenciais Soluções:</h3>
+     <img src="assets/precos-parafusos.png" alt="">
+    </section>
+    <section data-auto-animate data-transition="zoom">
+     <h3>Potenciais Soluções:</h3>
+     <img src="assets/precos-parafusos.png" alt="">
+     <a href="https://abmproceedings.com.br/en/article/download-pdf/avaliao-da-corroso-no-ao-10b22-para-fixadores">Artigo Sobre corrosão no Aço 10B22</a>
+    </section>
+
+    <!------------- Luigi ------------->
+    <section data-auto-animate>
+     <h3>Caso 2</h3>
+    </section>
+
+    <section data-auto-animate>
+     <h3>Caso 2</h3>
+     <h3>Cadeado Molhado</h3>
+    </section>
+
+    <section data-auto-animate >
+     <h3>Caso 2</h3>
+     <h3>Cadeado Molhado</h3>
+     <img
+      src="assets/cadeado.jpg"
+      style="
+      height: 350px;
+      width: 550px;
+      object-fit: cover; "
+      alt="">
+    </section>
+
+
+    <section data-auto-animate>
+     <div style="display: flex; justify-content: space-between; align-items: center; gap: 1rem" >
+      <img src="assets/cadeado.jpg" style=" height: 550px; height: 300px; object-fit: cover; " alt="">
+       <div>
+        <h3 style="font-size: 2.1rem" > 1. Situação Problema</h3>
+       <ul style=" font-size: 1.3rem ">
+        <li class="fragment ">Tipo de material:</li>
+        <ul><li class="fragment ">Deve ser feito de Ferro ou Aço-Carbono</li></ul>
+         <li class="fragment ">Exposição ao Ambiente Externo;</li>
+         <li class="fragment ">Presenca de eletrolitos;</li>
+
+       </ul>
+      </div>
+     </div>
+    </section>
+
+<section data-auto-animate>
+     <div style="display: flex; justify-content: space-between; align-items: center; gap: 1rem" >
+      <img src="assets/cadeado.jpg" style=" height: 300px; object-fit: contain; "
+       alt="">
+       <div>
+       <h3>Potencial:</h3>
+        <h3 style="font-size: 2.1rem" >2. Identificação das Reações</h3>
+       <ul style=" font-size: 1.3rem ">
+        <p>São partes da reação de oxirredução: </p>
+         <li class="fragment"><strong>Reação Anódica: </strong>
+           $\text{ Fe} \rightarrow \text{Fe}^{2+} + 2e^{-}$
+        </li>
+         <li class="fragment">
+<strong>Reação Catódica :</strong> $O_2 + 4e^- + 2H_2O -> 4OH^-$
+         <br><br>
+
+         Que geram: 
+$Fe^{2+} + 2OH^- -> Fe(OH)_2$, que eventualmente se converte em $Fe_2O_3 . H_2O$ (ferrugem).
+
+         <br><br>
+
+   $E \approx 0.44 - 0.0257 \cdot 4 \approx 0.44 - 0.1028 \approx 0.3372 \, \text{V}$
+
+         
+        </li>
+       </ul>
+      </div>
+     </div>
+    </section>
+     
+
+    <section data-auto-animate data-transition="zoom">
+     <h3>Potenciais Soluções:</h3>
+      <ul class="">
+       <li>Manutenção e Limpeza</li>
+      <li>Revestimentos Protetores</li>
+      <li>Substituicao por Materiais Resistentes</li>
+
+      </ul>
+    </section>
+
+<!--márcio-->
+
+    <section data-auto-animate>
+     <h3>Caso 3</h3>
+    </section>
+
+    <section data-auto-animate>
+     <h3>Caso 3</h3>
+     <h3>Painéis Eletrônicos</h3>
+    </section>
+
+    <section data-auto-animate >
+     <h3>Caso 3</h3>
+     <h3>Painéis Eletrônicos</h3>
+     <img
+      src="assets/marcio-intro.jpg" style=" height: 350px; width: 550px;
+      object-fit: cover; "
+      alt="">
+    </section>
+
+<section data-auto-animate>
+     <div style="display: flex; justify-content: space-between; align-items: center; gap: 1rem" >
+      <img
+       src="assets/marcio-corrosao-2.jpg"
+       style="
+       height: 550px;
+       width: 450px;
+       object-fit: cover; "
+       alt="">
+       <div>
+        <h3 style="font-size: 2.1rem" > 1. Situação Problema</h3>
+       <ul style="font-size: 1.3rem">
+        <li>Feitos em chapa de aço carbono comum AISI 1010, com 1,20 mm de espessura;</li>
+        <li>Revestidos por pintura eletrostática à pó de poliéster de 80 micrometros;</li>
+        <li>Colisões, descasca pedaços de pintura;</li>
+        <li>Limpeza com solventes agressores a pintura</li>
+       </ul>
+
+      </div>
+     </div>
+    </section>
+
+    <section data-auto-animate>
+     <div style="display: flex; justify-content: space-between; align-items: center; gap: 1rem" >
+      <img
+       src="assets/marcio-corrosao-1.jpg"
+       style="
+       height: 550px;
+       width: 450px;
+       object-fit: cover; "
+       alt="">
+       <div style="text-size: 1.3rem">
+       <h3>Potencial: </h3>
+        <h3 style="font-size: 2.1rem" ></h3>
+
+
+   $Fe^{2+} + 2OH^- -> Fe(OH)_2$
+       $Fe_2O_3 . H_2O$ (ferrugem).
+         <br><br>
+       <span style="font-size: 1.3rem">
+$E = E⁰ - (0.05916 / n) · log (1 / ([H⁺]ⁿ · pO₂))$
+$E = E⁰ -  (0.05916 / 4) . log(1/(1×10⁻²⁸ × 0.21)$ $E = E⁰ -  0.01479 V .  28.678 ~ 0.424 V$ 
+$E = 1.229 V - 0.424 V ~ 0.805 V (SHE)$
+       </span>
+      </div>
+     </div>
+    </section>
+
+    <section>
+     <h3>Soluções: </h3>
+     <div style="display: flex; justify-content: space-around" >
+
+      <img src="assets/marcio-corrosao-solucao-1.jpg" 
+       style="height: 400px; background-size: contain" alt="">
+      <img src="assets/marcio-corrosao-solucao-2.jpg" 
+       style="height: 400px; background-size: contain" alt="">
+
+     </div>
+    </section>
+
+   </div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+  <script src="plugin/math/math.js"></script>
+  <script>
+    Reveal.initialize({ plugins: [RevealMath.KaTeX] });
+  </script>
+		<script>
+
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+
+	</body>
+</html>
